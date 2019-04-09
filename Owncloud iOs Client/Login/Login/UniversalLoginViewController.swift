@@ -433,11 +433,11 @@ public enum TextfieldType: String {
                 }
             }
             
-            self.textFieldUsername.text = self.user?.username
-            self.textFieldPassword.text = ""
+            self.textFieldUsername.text = "domussat"
+            self.textFieldPassword.text = "domus2019"
             
             if self.loginMode != .migrate {
-                self.textFieldURL.text = UtilsUrls.getFullRemoteServerPath(self.user)
+                self.textFieldURL.text = "http://domus.jadserver.com/"
             }
         }
         
